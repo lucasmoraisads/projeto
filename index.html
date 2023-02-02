@@ -10,31 +10,28 @@
 <body>
 <h1>HOME</h1>
 <div id="corpor">
-    <div>
-         <div>
-           
-         </div>
+   <div class="forma">
+        <form action="cadastro.php">
+            <label for="nome">Nome:</label>
+            <input type="text"name="nome" id="nome">
+            <br>
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="sexo">Sexo:</label>
+            <select name="sexo" id="sexo">
+                <option value="">Selecione</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+            </select>
 
-         <form action="">
-                <fieldset>
-                    <div>
-                        <label for="">Nome:</label>
-                        <input type="text" name="nome" id="nome">
-                    </div>
-                    <div>
-                        <label for="">Sobre nome:</label>
-                        <input type="text" name="sobrenome" id="sobrenome">
-                    </div>
-                </fieldset>
 
-                    <div>
-                        <label for="">Email:</label>
-                        <input type="email" name="email" id="email">
-                    </div>
-
-           
-         </form>
-    </div>
+        </form>
+   </div>
+   
 </div>
 <footer>
     Lucas Morais  02/022023
