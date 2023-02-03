@@ -1,3 +1,8 @@
 body{
         background-color: rgb(57, 235, 235);
 }
+#corpo {
+        width: 300em;
+        height: 600em;
+        background-color: blue;
+}
