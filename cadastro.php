@@ -25,3 +25,4 @@ else{
     echo $email . '<br>';
     echo $sexo . '<br>'; 
 }
+
